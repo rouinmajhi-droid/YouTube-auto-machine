@@ -1,0 +1,29 @@
+{
+  "name": "ai-automation-platform",
+  "version": "1.0.0",
+  "description": "AI Automation - YouTube Automation & AI Agent Platform with 11 Core Skills, Coin Wallet, Offerwalls, and Direct Coin Subscriptions",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node --watch backend/server.js"
+  },
+  "keywords": [
+    "youtube-automation",
+    "ai-agent",
+    "offerwall",
+    "coin-wallet",
+    "subscription",
+    "bitlabs",
+    "cpx-research",
+    "adsense"
+  ],
+  "author": "AI Automation Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "qrcode": "^1.5.4"
+  }
+}
